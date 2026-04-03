@@ -1,0 +1,12 @@
+{
+  "name": "what-is-coffeescript",
+  "version": "1.0.0",
+  "description": "A CoffeeScript explainer repo, written in CoffeeScript.",
+  "scripts": {
+    "build": "coffee --compile examples.coffee compare.coffee classes.coffee",
+    "watch": "coffee --compile --watch examples.coffee"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  }
+}
